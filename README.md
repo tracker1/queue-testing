@@ -38,13 +38,13 @@ Was curious about the performance of a few different queue implementation option
 
 ## Results
 
-| Implementation     | 10000    | 100000   |
-| ------------------ | -------- | -------- |
-| SplicingQueue      | 10.07    | 3,054.83 |
-| DeletingQueue      | 5.78     | 13.26    |
-| **UndefinedQueue** | **5.28** | **9.25** |
-| MapQueue           | 6.72     | 19.55    |
-| MapUndefQueue      | 6.67     | 17.27    |
+| Implementation \ Iterations | 10000      | 100000     |
+| --------------------------- | ---------- | ---------- |
+| SplicingQueue               | 10.07ms    | 3,054.83ms |
+| DeletingQueue               | 5.78ms     | 13.26ms    |
+| **UndefinedQueue**          | **5.28ms** | **9.25ms** |
+| MapQueue                    | 6.72ms     | 19.55ms    |
+| MapUndefQueue               | 6.67ms     | 17.27ms    |
 
 <br />
 
